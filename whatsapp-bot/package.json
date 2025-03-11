@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "A WhatsApp bot for status viewing, anti-delete, and group moderation",
+  "main": "src/whatsapp_bot.js",
+  "scripts": {
+    "start": "node src/whatsapp_bot.js",
+    "pair": "node src/pairing_script.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
